@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flexo UI KIT V 1.2</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css" media="all">
+	<link rel="stylesheet" href="css/flexo-tb.css" media="all">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.0.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</head>
+<body>
+<div class="container">
+	<header>
+	<div class="logo">Flexo ui kit v 1.2<span>based on twitter bootstrap</span></div>
+	</header>
+	<div class="title"><span>Buttons</span><div class="title-line"></div></div>
+<table class="tbl">
+  <tbody>
+    <tr>
+      <th>CSS CLASS</th>
+      <th>PREVIEW</th>
+    </tr>
+    <tr>
+      <td><code>&lt;input type="button" value="Button" class="btn"&gt;</code></td>
+      <td><input type="button" value="Button" class="btn"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btn-primary"&gt;</code></td>
+      <td><input type="button" value="Primary button" class="btn btn-primary"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btn-small"&gt;</code></td>
+      <td><input type="button" value="Small button" class="btn btn-small"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btn-primary btn-small"&gt;</code></td>
+      <td><input type="button" value="Small primary button" class="btn btn-small btn-primary"></td>
+    </tr>
+    <tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btnerror"&gt;</code></td>
+      <td><input type="button" value="Button" class="btn btnerror"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btn-primary btnerror"&gt;</code></td>
+      <td><input type="button" value="Primary button" class="btn btn-primary btnerror"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btn-small btnerror"&gt;</code></td>
+      <td><input type="button" value="Small button" class="btn btn-small btnerror"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="button" value="Button" class="btn btn-primary btn-small btnerror"&gt;</code></td>
+      <td><input type="button" value="Small primary button" class="btn btn-small btn-primary btnerror"></td>
+    </tr>	
+  </tbody>
+</table>	
+	<div class="title"><div>Text inputs</div><div class="title-line"></div></div>
+<table class="tbl">
+  <tbody>
+    <tr>
+      <td><code>&lt;input type="text"&gt;</code></td>
+      <td><input type="text" value="Input text field"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="text" class="input-small"&gt;</code></td>
+      <td><input type="text" class="input-small" value="Input small text field"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;textarea class="textarea"></textarea&gt;</code></td>
+      <td><textarea class="textarea">Textarea</textarea></td>
+    </tr>
+	<tr>
+      <td><code>&lt;input type="text" class="inputerror"&gt;</code></td>
+      <td><input type="text" class="inputerror" value="Input text field"></td>
+    </tr>
+		<tr>
+      <td><code>&lt;input type="text" class="input-small inputerror"&gt;</code></td>
+      <td><input type="text" class="input-small inputerror" value="Input small text field"></td>
+    </tr>
+	<tr>
+      <td><code>&lt;textarea class="textarea inputerror"></textarea&gt;</code></td>
+      <td><textarea class="textarea inputerror">Textarea</textarea></td>
+    </tr>
+  </tbody>
+</table>
+<div class="title"><span>Select, checkboxes</span><div class="title-line"></div></div>
+<table class="tbl">
+  <tbody>
+    <tr>
+      <td><pre>
+&lt;div class="btn-group"&gt;
+  &lt;button class="select"&gt;Input text field&lt;/button&gt;
+  &lt;button class="select dropdown-toggle" data-toggle="dropdown"&gt;
+    &lt;span class="caret"&gt;&lt;/span&gt;&lt;/button&gt;
+    &lt;ul class="dropdown-menu"&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="divider"&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</pre></td>
+      <td>
+				<div class="btn-group">
+                <button class="select">Input text field</button>
+                <button class="select dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+</td>
+    </tr>
+	    <tr>
+      <td><pre>
+&lt;div class="btn-group"&gt;
+  &lt;button class="select select-small"&gt;Input text field&lt;/button&gt;
+  &lt;button class="select select-small dropdown-toggle" data-toggle="dropdown"&gt;
+    &lt;span class="caret"&gt;&lt;/span&gt;&lt;/button&gt;
+    &lt;ul class="dropdown-menu"&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="divider"&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</pre></td>
+      <td>
+				<div class="btn-group">
+                <button class="select select-small">Input text field</button>
+                <button class="select select-small dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+</td>
+    </tr>
+		    <tr>
+      <td><pre>
+&lt;label class="checkbox"&gt;
+  &lt;input type="checkbox"/&gt;
+  &lt;span class="switch"&gt;
+    &lt;span class="checkOn"&gt;On&lt;/span&gt;
+    &lt;span class="checkOff"&gt;Off&lt;/span&gt;	   
+    &lt;span class="checkBlock"&gt;&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/label&gt;</pre>
+	  </td>
+      <td>	
+	  <label class="checkbox">
+		<input type="checkbox"/>
+		<span class="switch">
+        <span class="checkOn">On</span>
+        <span class="checkOff">Off</span>	   
+        <span class="checkBlock"></span>
+		</span>
+	</label>
+	  </td>
+    </tr>
+	 <tr>
+      <td><pre>
+&lt;label class="checkbox"&gt;
+  &lt;input type="checkbox" checked/&gt;
+  &lt;span class="switch"&gt;
+    &lt;span class="checkOn"&gt;On&lt;/span&gt;
+    &lt;span class="checkOff"&gt;Off&lt;/span&gt;	   
+    &lt;span class="checkBlock"&gt;&lt;/span&gt;
+  &lt;/span&gt;
+&lt;/label&gt;</pre>
+	  </td>
+      <td>	
+	  <label class="checkbox">
+		<input type="checkbox" checked/>
+		<span class="switch">
+        <span class="checkOn">On</span>
+        <span class="checkOff">Off</span>	   
+        <span class="checkBlock"></span>
+		</span>
+	</label>
+	  </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="title"><span>CONTENT, COLORS</span><div class="title-line"></div></div>
+<table class="tbl">
+  <tbody>
+    <tr>
+      <td><pre>
+&lt;table class="table"&gt;
+......
+&lt;/table&gt;
+	  </pre></td>
+      <td>
+	  
+	  <table class="table">
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Имя пользователя</th>
+      <th>Роли</th>
+      <th>Последнее изменение</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><div class="username">Alexander</div></td>
+      <td><div class="role">admin, developer</div></td>
+      <td><div class="date">20 июня 2013</div></td>
+      <td><input type="button" value="Удалить" class="btn btn-small"></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><div class="username">Ephim</div></td>
+      <td><div class="role">developer</div></td>
+      <td><div class="date">20 июня 2013</div></td>
+      <td><input type="button" value="Удалить" class="btn btn-small"></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><div class="username">Gregory</div></td>
+      <td><div class="role">editor</div></td>
+      <td><div class="date">20 июня 2013</div></td>
+      <td><input type="button" value="Удалить" class="btn btn-small"></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td><div class="username">Anton</div></td>
+      <td><div class="role">user</div></td>
+      <td><div class="date">20 июня 2013</div></td>
+      <td><input type="button" value="Удалить" class="btn btn-small"></td>
+    </tr>
+  </tbody>
+</table>
+	  
+	  </td>
+    </tr>
+	
+		<tr>
+      <td><code>&lt;a href="#">Link&lt/a&gt;</code></td>
+      <td><a href="#">Link</a></td>
+    </tr>
+	<tr>
+      <td><code>&lt;p>TEXT ENGLISH&lt;/p></code></td>
+      <td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and  more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></td>
+    </tr>
+	<tr>
+      <td><code>&lt;p>TEXT RUSSIAN&lt;/p></code></td>
+      <td><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p></td>
+    </tr>
+  </tbody>
+</table>		
+</div>
+  </div>
+</div>
+
+
+</html>
